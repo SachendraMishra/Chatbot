@@ -43,6 +43,7 @@ String name="unknown";
                                catch(IOException e)
                                {
                                System.out.println("I dont Understand Sir\n");
+                               System.out.println("I Understand Sir\n");
                                }
                 ChatHistory.setText(" Hey It's Your Personal Assistant Sir How Can I help you?");
 		ChatHistory.setText("AI :" + ChatHistory.getText() );
