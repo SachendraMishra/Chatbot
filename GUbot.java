@@ -43,7 +43,6 @@ String name="unknown";
                                catch(IOException e)
                                {
                                System.out.println("I dont Understand Sir\n");
-                               System.out.println("I Understand Sir\n");
                                }
                 ChatHistory.setText(" Hey It's Your Personal Assistant Sir How Can I help you?");
 		ChatHistory.setText("AI :" + ChatHistory.getText() );
@@ -258,6 +257,7 @@ else        if((str.matches("(.*)hi(.*)"))||(str.matches("(.*)hello(.*)"))||(str
                                catch(IOException e)
                                {
                                System.out.println("I dont Understand Sir\n");
+			       System.out.println("I Fully Understand Sir\n");
                                }                          }  
           else      if(str.matches("(.*)who(.*)")||(str.matches("(.*)created(.*)")&&str.matches("(.*)you(.*)")))
                       {
